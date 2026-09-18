@@ -1,0 +1,98 @@
+## ===========================
+## .NET / ASP.NET WebForms
+## ===========================
+
+# Build output
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+*.vcxproj.filters
+
+# NuGet
+packages/
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# ===========================
+## Sensitive / Secret Files
+## ===========================
+
+# Never commit these files - they contain secrets
+Web.Debug.config
+Web.Release.config
+*.local.config
+appsettings.local.json
+secrets.json
+.env
+.env.*
+*.pfx
+*.cer
+*.key
+
+# ===========================
+## Log & Temporary Files
+## ===========================
+
+webhook_log.txt
+*.log
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+desktop.ini
+
+# ===========================
+## Uploads & User Data
+## ===========================
+
+# Don't commit user uploads
+Riyadh Al-Salehin/Uploads/*
+!Riyadh Al-Salehin/Uploads/.gitkeep
+Riyadh Al-Salehin/IMG/*
+!Riyadh Al-Salehin/IMG/.gitkeep
+
+# ===========================
+## Root-level Test / Scratch Files
+## ===========================
+
+scratch.json
+scratch2.json
+scratch3.json
+read_xray.cs
+read_xray.exe
+test_method.cs
+test_query.cs
+test_query.exe
+POST_TEST.txt
+Fix_Phone_IP_*.bat
+
+# ===========================
+## Database Files
+## ===========================
+
+App_Data/*.mdf
+App_Data/*.ldf
+*.mdf
+*.ldf
+
+# ===========================
+## OS & Editor
+## ===========================
+
+.DS_Store
+*.DS_Store
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ===========================
+## Rider / JetBrains
+## ===========================
+.idea/
+*.iml

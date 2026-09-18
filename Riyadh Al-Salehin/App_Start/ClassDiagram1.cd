@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WorkTable">
+    <Position X="8" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAYAQAAAQBAAAUQAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>App_Start\WorkTable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUsers" Collapsed="true">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAaCAEIAACACAIAAESAAAAACAAEDAAACggAYIAIgAIE=</HashCode>
+      <FileName>App_Start\CUsers.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRolePermissions" Collapsed="true">
+    <Position X="11.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYGAEIAAAAAAAAAAAAEAQAAAAEAAAACAgAAAAAgAAA=</HashCode>
+      <FileName>App_Start\CRolePermissions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CRoles" Collapsed="true">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEAAAAAgAAAAACAAAAQAAAEAAAACAgAAAAAgAIA=</HashCode>
+      <FileName>App_Start\CRoles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPermissions" Collapsed="true">
+    <Position X="11.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEAAAAAgAAAAAAAAAAAAAAkAAAACAgAACAAgAAQ=</HashCode>
+      <FileName>App_Start\CPermissions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CInvoiceItems" Collapsed="true">
+    <Position X="4.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAYCIGAAAAAAAAAAAAAAAAAAAAEAQAACCgAAgAAgAIA=</HashCode>
+      <FileName>App_Start\CInvoiceItems.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CLabRequests" Collapsed="true">
+    <Position X="11.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEAEAQAAAAAAAAAAAAAAAAEAAAACAgAAAAAgAAA=</HashCode>
+      <FileName>App_Start\CLabRequests.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CInvoices" Collapsed="true">
+    <Position X="11.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAcDAUBAAQAUAAAEAAAAEAAICAEDSACCAgAkAAggIIE=</HashCode>
+      <FileName>App_Start\CInvoices.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CLabResults" Collapsed="true">
+    <Position X="11.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEAAAAAEAAQAAAAACAQAABEAAAACAgAAAAAgAIA=</HashCode>
+      <FileName>App_Start\CLabResults.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CMedicalExaminations" Collapsed="true">
+    <Position X="4.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYiAEAEAAAAAAAAAgAAAAAAAAEAQAACAgAAAAggAIA=</HashCode>
+      <FileName>App_Start\CMedicalExaminations.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CMedicalReferrals" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYiAEAAAAAAAAAAACAAAAAAAAEAAAACAwAAAAAgAIA=</HashCode>
+      <FileName>App_Start\CMedicalReferrals.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CMedicalSupplies" Collapsed="true">
+    <Position X="4.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEAAAQgAAAAAIAAAAAAAAAEEAAACAgAAAAAgAIA=</HashCode>
+      <FileName>App_Start\CMedicalSupplies.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="COperationLogs" Collapsed="true">
+    <Position X="11.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEAAAAAAAAAAAAAgEAkAAAEAAAACAgAAAAIiAAQ=</HashCode>
+      <FileName>App_Start\COperationLogs.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="COperationRooms" Collapsed="true">
+    <Position X="9.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEACAEAAAAAAAAAAAAAAAAEAAAACAwAAAJAgAIA=</HashCode>
+      <FileName>App_Start\COperationRooms.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPatientSupplies" Collapsed="true">
+    <Position X="6.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEAAAQAAAAAAAAAAAgAAEAEAAAACAgAAgAAgAAA=</HashCode>
+      <FileName>App_Start\CPatientSupplies.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPerformedExaminationProcedures" Collapsed="true">
+    <Position X="6.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYiAGAAAQAAAAAAACAAAEAAAAEAAAACAgAAAAAgAAA=</HashCode>
+      <FileName>App_Start\CPerformedExaminationProcedures.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPrescriptionItems" Collapsed="true">
+    <Position X="5.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEAAAAACAAAAIAAAAAAAAIEIAAACAgAEAAAgAAQ=</HashCode>
+      <FileName>App_Start\CPrescriptionItems.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPrescriptions" Collapsed="true">
+    <Position X="9.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYiAEAAAQAAAAAAACAAAAAAAAEKAAACAgAAAAAgAAA=</HashCode>
+      <FileName>App_Start\CPrescriptions.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CServicesAndPrices" Collapsed="true">
+    <Position X="10.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAaCAEAAAAAAAAACgAAAAAAAAAEAAAACAgAAAAAgDIA=</HashCode>
+      <FileName>App_Start\CServicesAndPrices.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CSurgeries" Collapsed="true">
+    <Position X="8" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAYiAEEGEQAgAAAAAAAAAAAAAAEDAAACAhAAAAAgAIE=</HashCode>
+      <FileName>App_Start\CSurgeries.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CSurgeryAccounts" Collapsed="true">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAcCAEIAAQAAAAABAAAAEAAgGAEAAAACAgAgAAAgAAA=</HashCode>
+      <FileName>App_Start\CSurgeryAccounts.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CSurgerySupplies" Collapsed="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAYCAEAAAAAAAAAAACAAAgAgEAEAQAACAgAAAAAgAAA=</HashCode>
+      <FileName>App_Start\CSurgerySupplies.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CCommissionRules" Collapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYKAEAAAAAAAAAAAAAAEAAAAAEjAAACAgAAAAAgAAA=</HashCode>
+      <FileName>App_Start\CCommissionRules.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CDiscounts" Collapsed="true">
+    <Position X="11.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAcABAAAAAAAAEIBAAACAAAEAAAACAgQAAAAgAIA=</HashCode>
+      <FileName>App_Start\CDiscounts.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CAppointments" Collapsed="true">
+    <Position X="4.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYiAEAEAQAEAABAACAEAEAAAAkDIAACAgAAAQggAIU=</HashCode>
+      <FileName>App_Start\CAppointments.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CPatients" Collapsed="true">
+    <Position X="4.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAAACCAAAAAAAICAAAAMAAAEQAAACAgAAIAAgAIQ=</HashCode>
+      <FileName>App_Start\CPatients.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CMedicalCenters" Collapsed="true">
+    <Position X="4.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEAAAAAAIAAAAAAAAAAAAAEAAAQCAgAAIAAgAIA=</HashCode>
+      <FileName>App_Start\CMedicalCenters.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CDoctors" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCAEAAACAAIAAAACAAAIAAAAECQAQCAgAAIAAgAIA=</HashCode>
+      <FileName>App_Start\CDoctors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Riyadh_Al_Salehin.CDoctorSchedules">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAEAAAAAAAABAAAAAAAAAIAEiAAACAAAAAQAgAIA=</HashCode>
+      <FileName>App_Start\CDoctorSchedules.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="BasicOperetoin">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>App_Start\BasicOperetoin.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Templates>
+  <Template Name="Consultation" File="ConsultationInvoicePrint.aspx">
+    <PaperSize>80mm</PaperSize>
+    <FontSize>12</FontSize>
+    <PrintType>Thermal</PrintType>
+    <ShowHeader>true</ShowHeader>
+    <ShowBarcode>true</ShowBarcode>
+    <ShowFooter>true</ShowFooter>
+    <ShowQueue>true</ShowQueue>
+    <ShowPaymentStatus>true</ShowPaymentStatus>
+    <ShowAmountDetails>true</ShowAmountDetails>
+    <HeaderExtra></HeaderExtra>
+    <FooterExtra></FooterExtra>
+    <Watermark></Watermark>
+    <CustomFields />
+  </Template>
+  <Template Name="Surgery" File="SurgeryInvoicePrint.aspx">
+    <PaperSize>80mm</PaperSize>
+    <FontSize>12</FontSize>
+    <PrintType>Thermal</PrintType>
+    <ShowHeader>true</ShowHeader>
+    <ShowBarcode>true</ShowBarcode>
+    <ShowFooter>true</ShowFooter>
+    <ShowQueue>true</ShowQueue>
+    <ShowPaymentStatus>true</ShowPaymentStatus>
+    <ShowAmountDetails>true</ShowAmountDetails>
+    <HeaderExtra></HeaderExtra>
+    <FooterExtra></FooterExtra>
+    <Watermark></Watermark>
+    <CustomFields />
+  </Template>
+  <Template Name="Xray" File="XrayInvoicePrint.aspx">
+    <PaperSize>80mm</PaperSize>
+    <FontSize>12</FontSize>
+    <PrintType>Thermal</PrintType>
+    <ShowHeader>true</ShowHeader>
+    <ShowBarcode>true</ShowBarcode>
+    <ShowFooter>true</ShowFooter>
+    <ShowQueue>true</ShowQueue>
+    <ShowPaymentStatus>true</ShowPaymentStatus>
+    <ShowAmountDetails>true</ShowAmountDetails>
+    <HeaderExtra></HeaderExtra>
+    <FooterExtra></FooterExtra>
+    <Watermark></Watermark>
+    <CustomFields />
+  </Template>
+  <Template Name="Additional" File="InvoiceItemsPrint.aspx">
+    <PaperSize>80mm</PaperSize>
+    <FontSize>12</FontSize>
+    <PrintType>Thermal</PrintType>
+    <ShowHeader>true</ShowHeader>
+    <ShowBarcode>true</ShowBarcode>
+    <ShowFooter>true</ShowFooter>
+    <ShowQueue>true</ShowQueue>
+    <ShowPaymentStatus>true</ShowPaymentStatus>
+    <ShowAmountDetails>true</ShowAmountDetails>
+    <HeaderExtra></HeaderExtra>
+    <FooterExtra></FooterExtra>
+    <Watermark></Watermark>
+    <CustomFields />
+  </Template>
+</Templates>
