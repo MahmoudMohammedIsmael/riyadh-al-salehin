@@ -9,7 +9,7 @@
 
 ---
 
-## 📋 Project Overview | نظرة عامة على المشروع
+##  Project Overview | نظرة عامة على المشروع
 
 **Riyadh Al-Salehin** is a comprehensive, full-featured **Medical Center Management System** built with **ASP.NET WebForms (.NET 4.8.1)** and **SQL Server**. The system is designed to digitize and streamline all operations of a multi-specialty medical center, handling everything from patient registration to surgical invoicing, doctor scheduling, laboratory requests, X-ray management, and WhatsApp-integrated appointment notifications.
 
@@ -17,40 +17,40 @@
 
 ---
 
-## 🏥 Core Features | الميزات الرئيسية
+##  Core Features | الميزات الرئيسية
 
-### 👤 Patient Management | إدارة المرضى
+###  Patient Management | إدارة المرضى
 - Complete patient registration with demographic data (name, phone, address, date of birth)
 - Insurance company and insurance number tracking
 - Patient medical history and examination records
 - Patient-specific surgical procedures and invoices
 
-### 👨‍⚕️ Doctor Management | إدارة الأطباء
+###  Doctor Management | إدارة الأطباء
 - Doctor profiles with specialties and contact details
 - Weekly and daily schedule management
 - Doctor commission rules configuration
 - Doctor waiting queue (real-time patient queue per doctor)
 - Doctor summary reports (revenue, patient count)
 
-### 📅 Appointments | الحجوزات والمواعيد
+###  Appointments | الحجوزات والمواعيد
 - Online and in-center appointment booking
 - Appointment list management with status tracking
 - Patient-doctor schedule view
 - Doctor waiting room patient management
 
-### 🔬 Medical Examinations | الكشوفات الطبية
+###  Medical Examinations | الكشوفات الطبية
 - Full examination workflow: diagnosis, medicines, procedures
 - ICD (International Classification of Diseases) integration with import capability
 - Diagnosis-linked medicines prescriptions
 - Performed examination procedures tracking
 
-### 💊 Medical Services & Supplies | الخدمات والمستلزمات
+###  Medical Services & Supplies | الخدمات والمستلزمات
 - Medical services catalog with pricing
 - Medical supplies inventory management
 - Surgery-specific supplies tracking
 - Patient supplies management
 
-### 🧾 Invoicing & Billing | الفوترة والحسابات
+###  Invoicing & Billing | الفوترة والحسابات
 - **Consultation Invoices** — post-examination billing
 - **Surgery Invoices** — surgical procedure billing with itemized costs
 - **Invoice Items** — detailed line-item billing per service
@@ -60,19 +60,19 @@
 - Accounts dashboard with financial summaries
 - Accounts reports
 
-### 🏨 Surgery Management | إدارة العمليات
+###  Surgery Management | إدارة العمليات
 - Full surgical procedure records
 - Operation rooms management
 - Surgery accounts and financial tracking
 - Surgery invoices and print-ready reports
 - Surgery supplies and patient surgeries tracking
 
-### 🩺 Laboratory | المختبر
+###  Laboratory | المختبر
 - Lab request creation linked to patient/examination
 - Lab results entry and tracking
 - Lab request-to-result workflow
 
-### ☢️ X-Ray (Radiology) | الأشعة
+###  X-Ray (Radiology) | الأشعة
 - X-ray service catalog
 - X-ray reception and request management
 - X-ray result entry by radiology technicians
@@ -80,20 +80,20 @@
 - X-ray report viewer
 - X-ray invoice printing
 
-### 📱 WhatsApp Integration | تكامل واتساب
+###  WhatsApp Integration | تكامل واتساب
 - WhatsApp Business API integration (Meta Graph API v25.0)
 - Automated appointment notification messages
 - AI-powered WhatsApp chatbot using **Google Gemini AI**
 - Webhook support for incoming WhatsApp messages
 
-### 🔐 Users, Roles & Permissions | المستخدمون والأدوار والصلاحيات
+###  Users, Roles & Permissions | المستخدمون والأدوار والصلاحيات
 - Multi-user authentication system with session management
 - Role-based access control (RBAC)
 - Fine-grained permission system (View, Create, Edit, Delete per module)
 - Operation logs for audit trail
 - Last login tracking
 
-### 📊 Reports & Dashboard | التقارير ولوحة التحكم
+###  Reports & Dashboard | التقارير ولوحة التحكم
 - Accounts dashboard with financial KPIs
 - Accounts reports
 - Doctor summary reports
@@ -101,7 +101,7 @@
 
 ---
 
-## 🏗️ Architecture | البنية التقنية
+##  Architecture | البنية التقنية
 
 ```
 Riyadh Al-Salehin/
@@ -141,7 +141,7 @@ Riyadh Al-Salehin/
 
 ---
 
-## ⚙️ Setup & Configuration | الإعداد والتكوين
+##  Setup & Configuration | الإعداد والتكوين
 
 ### Prerequisites | المتطلبات
 - **Windows Server** or Windows 10/11
@@ -185,9 +185,9 @@ Copy `Web.config` and update the following settings:
 
 ---
 
-## 🔒 Security Notes | ملاحظات الأمان
+##  Security Notes | ملاحظات الأمان
 
-> **⚠️ IMPORTANT — Sensitive Configuration**
+> ** IMPORTANT — Sensitive Configuration**
 
 The following values **must never** be committed to source control. Always use environment variables or a secrets manager in production:
 
@@ -207,7 +207,7 @@ The following values **must never** be committed to source control. Always use e
 
 ---
 
-## 📦 NuGet Dependencies | المكتبات المستخدمة
+##  NuGet Dependencies | المكتبات المستخدمة
 
 | Package | Purpose |
 |---------|---------|
@@ -220,26 +220,21 @@ The following values **must never** be committed to source control. Always use e
 
 ---
 
-## 📸 Screenshots | لقطات الشاشة
+##  Screenshots | لقطات الشاشة
 
 > Screenshots will be added in future releases.
 
 ---
 
-## 🤝 Contributing | المساهمة
 
-This project is proprietary. For bug reports or feature requests, please contact the maintainer directly.
+##  License | الرخصة
 
----
-
-## 📄 License | الرخصة
-
-© 2024–2026 Riyadh Al-Salehin Medical Center. All rights reserved.  
+©  Riyadh Al-Salehin Medical Center. All rights reserved.  
 This software is proprietary and not licensed for redistribution or modification without explicit written permission.
 
 ---
 
-## 👨‍💻 Maintainer | المطوّر
+##  Maintainer | المطوّر
 
 **Mahmoud Mohammed Ismael**  
 GitHub: [@MahmoudMohammedIsmael](https://github.com/MahmoudMohammedIsmael)
