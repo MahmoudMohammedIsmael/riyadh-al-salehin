@@ -1,5 +1,5 @@
 # Riyadh Al-Salehin Medical Center Management System
-## نظام إدارة مركز رياض الصالحين الطبي
+
 
 ![ASP.NET](https://img.shields.io/badge/ASP.NET-WebForms%204.8.1-blue?logo=dotnet)
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-2019%2B-red?logo=microsoftsqlserver)
@@ -9,48 +9,47 @@
 
 ---
 
-##  Project Overview | نظرة عامة على المشروع
+##  Project Overview 
 
 **Riyadh Al-Salehin** is a comprehensive, full-featured **Medical Center Management System** built with **ASP.NET WebForms (.NET 4.8.1)** and **SQL Server**. The system is designed to digitize and streamline all operations of a multi-specialty medical center, handling everything from patient registration to surgical invoicing, doctor scheduling, laboratory requests, X-ray management, and WhatsApp-integrated appointment notifications.
 
-**رياض الصالحين** هو نظام شامل لإدارة المركز الطبي مبني على تقنية **ASP.NET WebForms** مع قاعدة بيانات **SQL Server**. يُغطي النظام جميع عمليات المركز الطبي من تسجيل المرضى حتى فوترة العمليات الجراحية وإدارة الجداول الطبية والمختبرات والأشعة مع تكامل إشعارات **WhatsApp**.
 
 ---
 
-##  Core Features | الميزات الرئيسية
+##  Core Features |  
 
-###  Patient Management | إدارة المرضى
+###  Patient Management |  
 - Complete patient registration with demographic data (name, phone, address, date of birth)
 - Insurance company and insurance number tracking
 - Patient medical history and examination records
 - Patient-specific surgical procedures and invoices
 
-###  Doctor Management | إدارة الأطباء
+###  Doctor Management |
 - Doctor profiles with specialties and contact details
 - Weekly and daily schedule management
 - Doctor commission rules configuration
 - Doctor waiting queue (real-time patient queue per doctor)
 - Doctor summary reports (revenue, patient count)
 
-###  Appointments | الحجوزات والمواعيد
+###  Appointments | 
 - Online and in-center appointment booking
 - Appointment list management with status tracking
 - Patient-doctor schedule view
 - Doctor waiting room patient management
 
-###  Medical Examinations | الكشوفات الطبية
+###  Medical Examinations | 
 - Full examination workflow: diagnosis, medicines, procedures
 - ICD (International Classification of Diseases) integration with import capability
 - Diagnosis-linked medicines prescriptions
 - Performed examination procedures tracking
 
-###  Medical Services & Supplies | الخدمات والمستلزمات
+###  Medical Services & Supplies |  
 - Medical services catalog with pricing
 - Medical supplies inventory management
 - Surgery-specific supplies tracking
 - Patient supplies management
 
-###  Invoicing & Billing | الفوترة والحسابات
+###  Invoicing & Billing | 
 - **Consultation Invoices** — post-examination billing
 - **Surgery Invoices** — surgical procedure billing with itemized costs
 - **Invoice Items** — detailed line-item billing per service
@@ -60,19 +59,19 @@
 - Accounts dashboard with financial summaries
 - Accounts reports
 
-###  Surgery Management | إدارة العمليات
+###  Surgery Management |  
 - Full surgical procedure records
 - Operation rooms management
 - Surgery accounts and financial tracking
 - Surgery invoices and print-ready reports
 - Surgery supplies and patient surgeries tracking
 
-###  Laboratory | المختبر
+###  Laboratory | 
 - Lab request creation linked to patient/examination
 - Lab results entry and tracking
 - Lab request-to-result workflow
 
-###  X-Ray (Radiology) | الأشعة
+###  X-Ray (Radiology) | 
 - X-ray service catalog
 - X-ray reception and request management
 - X-ray result entry by radiology technicians
@@ -80,20 +79,20 @@
 - X-ray report viewer
 - X-ray invoice printing
 
-###  WhatsApp Integration | تكامل واتساب
+###  WhatsApp Integration |  
 - WhatsApp Business API integration (Meta Graph API v25.0)
 - Automated appointment notification messages
 - AI-powered WhatsApp chatbot using **Google Gemini AI**
 - Webhook support for incoming WhatsApp messages
 
-###  Users, Roles & Permissions | المستخدمون والأدوار والصلاحيات
+###  Users, Roles & Permissions |   
 - Multi-user authentication system with session management
 - Role-based access control (RBAC)
 - Fine-grained permission system (View, Create, Edit, Delete per module)
 - Operation logs for audit trail
 - Last login tracking
 
-###  Reports & Dashboard | التقارير ولوحة التحكم
+###  Reports & Dashboard |  
 - Accounts dashboard with financial KPIs
 - Accounts reports
 - Doctor summary reports
@@ -101,7 +100,7 @@
 
 ---
 
-##  Architecture | البنية التقنية
+##  Architecture |  
 
 ```
 Riyadh Al-Salehin/
@@ -124,7 +123,7 @@ Riyadh Al-Salehin/
 └── packages.config             # NuGet dependencies
 ```
 
-### Technology Stack | التقنيات المستخدمة
+### Technology Stack |  
 
 | Component | Technology |
 |-----------|-----------|
@@ -141,21 +140,21 @@ Riyadh Al-Salehin/
 
 ---
 
-##  Setup & Configuration | الإعداد والتكوين
+##  Setup & Configuration |  
 
-### Prerequisites | المتطلبات
+### Prerequisites | 
 - **Windows Server** or Windows 10/11
 - **IIS** (Internet Information Services) with ASP.NET 4.8 enabled
 - **Microsoft SQL Server** 2019 or later
 - **.NET Framework 4.8.1**
 - **Visual Studio 2022** (for development)
 
-### 1. Database Setup | إعداد قاعدة البيانات
+### 1. Database Setup |   
 1. Open **SQL Server Management Studio (SSMS)**
 2. Create a new database named `RiyadhAlSalehinDB`
 3. Run the database migration/schema scripts (contact the maintainer for the SQL schema)
 
-### 2. Application Configuration | إعداد التطبيق
+### 2. Application Configuration |  
 Copy `Web.config` and update the following settings:
 
 ```xml
@@ -177,7 +176,7 @@ Copy `Web.config` and update the following settings:
 </appSettings>
 ```
 
-### 3. IIS Deployment | النشر على IIS
+### 3. IIS Deployment |  IIS
 1. Publish the project to a local folder via Visual Studio
 2. Create a new IIS site pointing to the published folder
 3. Set the Application Pool to **.NET CLR v4.0**, **Integrated Pipeline**
@@ -185,7 +184,7 @@ Copy `Web.config` and update the following settings:
 
 ---
 
-##  Security Notes | ملاحظات الأمان
+##  Security Notes |  
 
 > ** IMPORTANT — Sensitive Configuration**
 
@@ -207,7 +206,7 @@ The following values **must never** be committed to source control. Always use e
 
 ---
 
-##  NuGet Dependencies | المكتبات المستخدمة
+##  NuGet Dependencies |  
 
 | Package | Purpose |
 |---------|---------|
@@ -220,21 +219,15 @@ The following values **must never** be committed to source control. Always use e
 
 ---
 
-##  Screenshots | لقطات الشاشة
 
-> Screenshots will be added in future releases.
-
----
-
-
-##  License | الرخصة
+##  License | 
 
 ©  Riyadh Al-Salehin Medical Center. All rights reserved.  
 This software is proprietary and not licensed for redistribution or modification without explicit written permission.
 
 ---
 
-##  Maintainer | المطوّر
+##  Maintainer | 
 
 **Mahmoud Mohammed Ismael**  
 GitHub: [@MahmoudMohammedIsmael](https://github.com/MahmoudMohammedIsmael)
